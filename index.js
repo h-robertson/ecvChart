@@ -97,4 +97,13 @@ d3.csv("data/ecv_margin_histo_chart.csv").then(function (data) {
         .attr("x", function (d, i) {
             return x(d.start);
         })
+
+    wrapper.append("line")
+        .attr("y1", y(-80))
+        .attr("y2", y(40))
+        .attr("x1", x(270))
+        .attr("x2", x(270))
+        .style("stroke-width", "1.5")
+        .style("stroke", "#121212")
+        .attr("class", "zero-line");
 });
