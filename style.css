@@ -1,0 +1,41 @@
+* {
+    background-color: #FBF6EF;
+    color: #121212;
+    margin: 0;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: 300;
+    border: none;
+    box-sizing: border-box
+}
+
+
+
+.grid line {
+    stroke: #dcdcdc;
+    opacity: 0.5;
+}
+
+.grid>.domain {
+    display: none;
+}
+
+.grid path {
+    display: none;
+}
+
+.xAxis text {
+    display: none;
+}
+
+
+.yAxis>.tick line {
+    stroke: #888;
+}
+
+.yAxis>.tick text {
+    fill: #121212;
+}
+
+.yAxis>.domain {
+    display: none;
+}
